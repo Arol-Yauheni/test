@@ -1,0 +1,19 @@
+{
+  "name": "nameproject",
+  "description": "",
+  "main": "",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}

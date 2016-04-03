@@ -1,0 +1,65 @@
+.photosetsBg{
+  section{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    .title{
+      font-size: 34px;
+      padding-top: 170px;
+      text-transform: uppercase;
+    }
+    .inf{
+      padding-top: 30px;
+      font-size: 14px;
+    }
+    .posts{
+      padding: 90px 0 50px 0;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .firstSet{
+        .photoset{
+          background: url(../../../img/4.jpg);
+          background-size: cover;
+        }
+      }
+      a{
+        text-decoration: none;
+        color: black;
+        .photoset{
+          background: url(../../../img/5.jpg);
+          background-size: cover;
+          margin-bottom: 30px;
+          width: 300px;
+          height: 300px;
+          overflow: hidden;
+          .data{
+            width: 100%;
+            height: 70px;
+            background-color: rgba(255,255,255,0.8);
+            transition: .4s;
+            position: relative;
+            left: 0;
+            top: 100%;
+            font-weight: 500;
+            .name{
+              text-align: center;
+              padding-top: 15px;
+            }
+            .date{
+              text-align: center;
+              padding-top: 10px;
+            }
+          }
+        }
+        .photoset:hover{
+          .data{
+            display: block;
+            top: 230px;
+          }
+        }
+      }
+    }
+  }
+}
